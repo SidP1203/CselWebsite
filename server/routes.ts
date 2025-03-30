@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertContactSchema, insertNewsletterSchema } from "@shared/schema";
+import { insertContactSchema, insertNewsletterSchema, searchQuerySchema } from "@shared/schema";
 import { ZodError } from "zod";
 import { fromZodError } from "zod-validation-error";
 
@@ -47,6 +47,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ message: validationError.message });
       }
       return res.status(500).json({ message: 'An error occurred while subscribing to the newsletter. Please try again later.' });
+    }
+  });
+
+  app.get('/api/search', async (req, res) => {
+    try {
+      const { query } = searchQuerySchema.parse(req.query);
+      
+      const results = await storage.searchContent(query);
+      
+      return res.status(200).json({ results });
+    } catch (error) {
+      if (error instanceof ZodError) {
+        const validationError = fromZodError(error);
+        return res.status(400).json({ message: validationError.message });
+      }
+      return res.status(500).json({ message: 'An error occurred while searching. Please try again later.' });
     }
   });
 

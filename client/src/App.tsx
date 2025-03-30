@@ -8,6 +8,7 @@ import Home from "@/pages/home";
 import AboutPage from "@/pages/about";
 import DonatePage from "@/pages/donate";
 import ProgramsPage from "@/pages/programs";
+import SearchPage from "@/pages/search";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { ScrollToTop } from "@/components/utils/ScrollToTop";
@@ -19,6 +20,7 @@ function Router() {
       <Route path="/about" component={AboutPage}/>
       <Route path="/donate" component={DonatePage}/>
       <Route path="/programs" component={ProgramsPage}/>
+      <Route path="/search" component={SearchPage}/>
       <Route component={NotFound} />
     </Switch>
   );
