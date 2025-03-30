@@ -9,21 +9,21 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "CSEL Cincinnati changed my family's life. Through their education program, my children received tutoring support that helped them excel in school. The financial coaching program helped me create a budget, save for emergencies, and eventually purchase our first home. I'm grateful for the support and opportunities they provided.",
-    name: "Sarah J.",
-    title: "Program Participant",
+    quote: "I found the PATHS program to be invaluable in working with teachers in grades K-6. The curriculum is comprehensive, user-friendly, age-appropriate, and engaging for students while teaching critical social-emotional skills that promote positive behaviors and help create a better learning environment.",
+    name: "Lauren K.",
+    title: "School Social Worker",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
   },
   {
-    quote: "My experience with CSEL Cincinnati has been transformative. Their workforce development program provided me with the skills and confidence I needed to secure a meaningful career. The mentorship I received continues to guide my professional growth.",
-    name: "Marcus T.",
-    title: "Career Program Graduate",
+    quote: "The PATHS program has been transformative for our school. Since implementation, we've seen a significant decrease in behavioral incidents and an increase in positive student interactions. The tools provided by CSEL Cincinnati have helped our teachers create more supportive classroom environments.",
+    name: "Michael R.",
+    title: "Elementary School Principal",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
   },
   {
-    quote: "As a volunteer with CSEL Cincinnati for over five years, I've witnessed firsthand the incredible impact they have on our community. The organization is truly dedicated to creating sustainable change and improving lives through their comprehensive approach.",
-    name: "Elena R.",
-    title: "Long-time Volunteer",
+    quote: "As an educator for over 20 years, I've seen many programs come and go, but the social-emotional learning strategies introduced by CSEL Cincinnati have had lasting impact. Our students are developing crucial life skills that extend beyond the classroom and into their communities.",
+    name: "Patricia T.",
+    title: "Veteran Teacher",
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
   }
 ];

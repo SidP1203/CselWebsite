@@ -44,7 +44,7 @@ export default function Header() {
             <Link href="/programs" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Programs</Link>
             <Link href="/#events" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">News & Events</Link>
             <Link href="/#impact" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Our Impact</Link>
-            <Link href="/#contact" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Contact</Link>
+            <a href="/#contact" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Contact</a>
           </nav>
           
           <div className="hidden md:block">
@@ -61,7 +61,7 @@ export default function Header() {
               <Link href="/programs" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Programs</Link>
               <Link href="/#events" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">News & Events</Link>
               <Link href="/#impact" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Our Impact</Link>
-              <Link href="/#contact" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Contact</Link>
+              <a href="/#contact" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Contact</a>
               <Link href="/donate" className="block bg-primary text-white font-['Montserrat'] font-semibold px-4 py-2 rounded hover:bg-red-700 transition-all text-center mt-4">DONATE</Link>
             </div>
           </div>
