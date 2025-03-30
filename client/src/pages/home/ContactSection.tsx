@@ -101,10 +101,9 @@ export default function ContactSection() {
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="font-['Montserrat'] font-semibold text-lg mb-1">Main Office</h4>
+                  <h4 className="font-['Montserrat'] font-semibold text-lg mb-1">Greater Cincinnati Area</h4>
                   <address className="text-gray-600 not-italic font-['Open Sans']">
-                    123 Community Way<br />
-                    Cincinnati, OH 45202
+                    Cincinnati, OH
                   </address>
                 </div>
               </div>
@@ -118,7 +117,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-['Montserrat'] font-semibold text-lg mb-1">Phone</h4>
                   <p className="text-gray-600 font-['Open Sans']">
-                    <a href="tel:+15135551234" className="hover:text-primary transition-all">(513) 555-1234</a>
+                    <a href="tel:+15138158835" className="hover:text-primary transition-all">(513) 815-8835</a>
                   </p>
                 </div>
               </div>
@@ -141,17 +140,8 @@ export default function ContactSection() {
             <div className="mt-8">
               <h4 className="font-['Montserrat'] font-semibold text-lg mb-3">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-red-700 transition-all">
+                <a href="https://www.facebook.com/Center-for-Social-Emotional-Learning" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-red-700 transition-all">
                   <Facebook size={18} />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-red-700 transition-all">
-                  <Twitter size={18} />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-red-700 transition-all">
-                  <Instagram size={18} />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-red-700 transition-all">
-                  <Linkedin size={18} />
                 </a>
               </div>
             </div>
@@ -212,7 +202,7 @@ export default function ContactSection() {
                       </FormLabel>
                       <FormControl>
                         <Input 
-                          placeholder="(513) 555-1234" 
+                          placeholder="(513) 815-8835" 
                           className="w-full px-4 py-3 border border-gray-300 rounded-md focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-20 transition-all"
                           {...field} 
                         />

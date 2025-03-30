@@ -1,4 +1,4 @@
-import { ArrowRight, GraduationCap, Home, Heart } from "lucide-react";
+import { ArrowRight, School, Users, BookOpen } from "lucide-react";
 import { Link } from "wouter";
 
 interface FocusArea {
@@ -10,22 +10,22 @@ interface FocusArea {
 
 const focusAreas: FocusArea[] = [
   {
-    icon: <GraduationCap className="h-10 w-10" />,
-    title: "Education",
-    description: "Supporting early childhood development, school readiness, and increasing graduation rates for a brighter future.",
+    icon: <School className="h-10 w-10" />,
+    title: "Education & Schools",
+    description: "Supporting schools with implementation of social-emotional learning programs and teacher professional development.",
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
   },
   {
-    icon: <Home className="h-10 w-10" />,
-    title: "Financial Stability",
-    description: "Helping families build savings, secure housing, and gain the financial skills to achieve economic independence.",
-    image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    icon: <Users className="h-10 w-10" />,
+    title: "Community Programs",
+    description: "Bringing social-emotional learning beyond the classroom to community centers, after-school programs, and families.",
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
   },
   {
-    icon: <Heart className="h-10 w-10" />,
-    title: "Health & Wellness",
-    description: "Ensuring access to quality healthcare, nutrition programs, and mental health resources for all community members.",
-    image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    icon: <BookOpen className="h-10 w-10" />,
+    title: "Research & Resources",
+    description: "Providing evidence-based tools, resources, and professional learning communities for educators and families.",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
   }
 ];
 
@@ -53,7 +53,7 @@ export default function FocusAreasSection() {
                 <p className="text-gray-600 mb-4 font-['Open Sans']">
                   {area.description}
                 </p>
-                <Link href="#">
+                <Link href="/programs">
                   <a className="inline-flex items-center text-primary font-['Montserrat'] font-semibold hover:text-[#0055a4] transition-all">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </a>
@@ -64,7 +64,7 @@ export default function FocusAreasSection() {
         </div>
         
         <div className="text-center mt-12">
-          <Link href="#">
+          <Link href="/programs">
             <a className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-red-700 transition-all inline-block">
               View All Programs
             </a>

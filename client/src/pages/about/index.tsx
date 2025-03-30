@@ -20,8 +20,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Mission & Vision</h1>
             <p className="text-xl text-gray-700 mb-8">
-              CSEL Cincinnati is dedicated to strengthening our community through education, support, and advocacy. 
-              We believe in creating a more equitable society where everyone has the opportunity to thrive.
+              The Center for Social-Emotional Learning (CSEL) was founded to fill a crucial mental health need in the school communities of the Greater Cincinnati area. We are dedicated to teaching children how to express their emotions in positive ways, effectively communicate, and manage their interpersonal conflicts.
             </p>
           </div>
         </div>
@@ -34,13 +33,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-700 mb-6">
-                CSEL Cincinnati was founded in 2005 by a group of passionate community leaders who recognized the need for a comprehensive approach to addressing social and economic challenges in our region.
+                CSEL was founded in June 2014 by a group of concerned educators and other professionals wanting to fill a crucial mental health need in the school communities of the Greater Cincinnati area.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                What began as a small grassroots initiative has grown into a leading organization that serves thousands of individuals and families each year through our diverse programs and services.
+                Many times we find the children we serve lack self-confidence, self-management, and relationship skills. The experienced and compassionate CSEL facilitators use Interactive and Engaging Experiences in school classrooms to assist youth in building these vital personal skills.
               </p>
               <p className="text-lg text-gray-700">
-                Throughout our history, we have remained committed to our founding principles of compassion, respect, and excellence in all that we do.
+                It is our deepest hope and major goal for our students to take these skills from the classroom to their future work life, marriages, parenting, and community at large. With this comprehensive training, we are enhancing the entire lives of our students, giving them the opportunity to be a positive change in the world.
               </p>
             </div>
             <div className="bg-gray-100 p-8 rounded-lg">
@@ -50,24 +49,24 @@ export default function AboutPage() {
               </div>
               <ul className="space-y-4">
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">2005:</span>
-                  <span className="text-gray-700">Founded by community leaders</span>
+                  <span className="font-bold text-primary mr-2">1979:</span>
+                  <span className="text-gray-700">Center for Peace Education (CPE) co-founded</span>
                 </li>
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">2010:</span>
-                  <span className="text-gray-700">Expanded program offerings to include educational support</span>
+                  <span className="font-bold text-primary mr-2">2009:</span>
+                  <span className="text-gray-700">CPE absorbed into another local non-profit</span>
                 </li>
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">2015:</span>
-                  <span className="text-gray-700">Launched advocacy initiative for policy change</span>
+                  <span className="font-bold text-primary mr-2">2013:</span>
+                  <span className="text-gray-700">CPE's new home closed, creating a need in the community</span>
                 </li>
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">2020:</span>
-                  <span className="text-gray-700">Adapted services to meet pandemic challenges</span>
+                  <span className="font-bold text-primary mr-2">2014:</span>
+                  <span className="text-gray-700">Center for Social-Emotional Learning (CSEL) founded</span>
                 </li>
                 <li className="flex">
                   <span className="font-bold text-primary mr-2">Today:</span>
-                  <span className="text-gray-700">Serving thousands across Cincinnati region</span>
+                  <span className="text-gray-700">Continuing to serve school communities in Greater Cincinnati</span>
                 </li>
               </ul>
             </div>
@@ -90,9 +89,9 @@ export default function AboutPage() {
               <div className="bg-primary/10 p-4 inline-flex rounded-full mb-6">
                 <Heart className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Compassion</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Self-Awareness</h3>
               <p className="text-gray-700">
-                We approach our work with empathy and understanding, recognizing the dignity and worth of every individual.
+                We help students recognize their emotions, thoughts, and values and understand how these influence behavior and decisions.
               </p>
             </div>
             
@@ -100,9 +99,9 @@ export default function AboutPage() {
               <div className="bg-primary/10 p-4 inline-flex rounded-full mb-6">
                 <Target className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Impact</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Social Awareness</h3>
               <p className="text-gray-700">
-                We are committed to creating meaningful, measurable change that improves lives and strengthens communities.
+                We emphasize the importance of understanding and respecting each other's differences and taking another person's perspective.
               </p>
             </div>
             
@@ -110,9 +109,9 @@ export default function AboutPage() {
               <div className="bg-primary/10 p-4 inline-flex rounded-full mb-6">
                 <Award className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Excellence</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Relationship Skills</h3>
               <p className="text-gray-700">
-                We strive for the highest standards in all aspects of our work, constantly seeking to improve our services.
+                We develop students' abilities to establish and maintain healthy relationships and resolve conflicts constructively.
               </p>
             </div>
           </div>
@@ -136,10 +135,10 @@ export default function AboutPage() {
                   <Users className="h-24 w-24 text-gray-400" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">Sarah Johnson</h3>
-              <p className="text-primary font-medium mb-3">Executive Director</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-1">Louise Gomer Bangel</h3>
+              <p className="text-primary font-medium mb-3">Founder & Board Chairperson</p>
               <p className="text-gray-700">
-                With over 15 years of nonprofit leadership experience, Sarah guides our strategic direction and oversees all operations.
+                Louise began her career in education in 1967 and co-founded the Center for Peace Education (CPE) in 1979. In 2014, she founded CSEL to continue serving the needs of local schools.
               </p>
             </div>
             
@@ -149,10 +148,10 @@ export default function AboutPage() {
                   <Users className="h-24 w-24 text-gray-400" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">Marcus Williams</h3>
-              <p className="text-primary font-medium mb-3">Program Director</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-1">CSEL Board Members</h3>
+              <p className="text-primary font-medium mb-3">Dedicated Leadership</p>
               <p className="text-gray-700">
-                Marcus leads the development and implementation of our community programs with passion and innovation.
+                Our board consists of dedicated, compassionate, and creative people who help grow our programs through volunteering and innovative leadership.
               </p>
             </div>
             
@@ -162,17 +161,17 @@ export default function AboutPage() {
                   <Users className="h-24 w-24 text-gray-400" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">Elena Rodriguez</h3>
-              <p className="text-primary font-medium mb-3">Director of Development</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-1">CSEL Facilitators</h3>
+              <p className="text-primary font-medium mb-3">Classroom Instructors</p>
               <p className="text-gray-700">
-                Elena builds strategic partnerships and manages our fundraising initiatives to support our mission growth.
+                Our experienced and compassionate facilitators work directly with students in classrooms, creating engaging learning experiences that build vital social-emotional skills.
               </p>
             </div>
           </div>
           
           <div className="text-center mt-12">
             <p className="text-lg text-gray-700">
-              Our team is supported by a dedicated Board of Directors and over 50 staff members and volunteers who work tirelessly to fulfill our mission.
+              We are currently looking for a few dedicated, compassionate, energetic, and creative people to join our Board! If you are interested in helping us grow our programs through volunteering and innovative leadership, please contact us.
             </p>
           </div>
         </div>

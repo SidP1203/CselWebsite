@@ -41,7 +41,7 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Home</Link>
             <Link href="/about" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">About Us</Link>
-            <Link href="/#programs" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Programs</Link>
+            <Link href="/programs" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Programs</Link>
             <Link href="/#events" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">News & Events</Link>
             <Link href="/#impact" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Our Impact</Link>
             <Link href="/#contact" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Contact</Link>
@@ -58,7 +58,7 @@ export default function Header() {
             <div className="py-3 space-y-3">
               <Link href="/" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Home</Link>
               <Link href="/about" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">About Us</Link>
-              <Link href="/#programs" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Programs</Link>
+              <Link href="/programs" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Programs</Link>
               <Link href="/#events" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">News & Events</Link>
               <Link href="/#impact" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Our Impact</Link>
               <Link href="/#contact" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Contact</Link>
