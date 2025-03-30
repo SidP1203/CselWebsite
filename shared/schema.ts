@@ -52,17 +52,4 @@ export const insertNewsletterSchema = createInsertSchema(newsletterSubscriptions
 export type InsertNewsletter = z.infer<typeof insertNewsletterSchema>;
 export type Newsletter = typeof newsletterSubscriptions.$inferSelect;
 
-// Define search schemas
-export const searchQuerySchema = z.object({
-  query: z.string().min(1).max(100),
-});
 
-export type SearchQuery = z.infer<typeof searchQuerySchema>;
-
-export type SearchResult = {
-  id: string;
-  title: string;
-  excerpt: string;
-  type: 'page' | 'program' | 'news' | 'event';
-  url: string;
-};
