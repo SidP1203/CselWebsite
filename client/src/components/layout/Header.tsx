@@ -40,7 +40,7 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Home</Link>
-            <Link href="/#about" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">About Us</Link>
+            <Link href="/about" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">About Us</Link>
             <Link href="/#programs" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Programs</Link>
             <Link href="/#events" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">News & Events</Link>
             <Link href="/#impact" className="font-['Montserrat'] font-medium text-gray-800 hover:text-primary transition-all border-b-2 border-transparent hover:border-primary pb-1">Our Impact</Link>
@@ -48,7 +48,7 @@ export default function Header() {
           </nav>
           
           <div className="hidden md:block">
-            <Link href="/#donate" className="bg-primary text-white font-['Montserrat'] font-semibold px-6 py-2 rounded hover:bg-red-700 transition-all">DONATE</Link>
+            <Link href="/donate" className="bg-primary text-white font-['Montserrat'] font-semibold px-6 py-2 rounded hover:bg-red-700 transition-all">DONATE</Link>
           </div>
         </div>
         
@@ -57,12 +57,12 @@ export default function Header() {
           <div className="md:hidden">
             <div className="py-3 space-y-3">
               <Link href="/" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Home</Link>
-              <Link href="/#about" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">About Us</Link>
+              <Link href="/about" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">About Us</Link>
               <Link href="/#programs" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Programs</Link>
               <Link href="/#events" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">News & Events</Link>
               <Link href="/#impact" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Our Impact</Link>
               <Link href="/#contact" className="block font-['Montserrat'] font-medium text-gray-800 hover:text-primary px-4 py-2 rounded hover:bg-gray-100">Contact</Link>
-              <Link href="/#donate" className="block bg-primary text-white font-['Montserrat'] font-semibold px-4 py-2 rounded hover:bg-red-700 transition-all text-center mt-4">DONATE</Link>
+              <Link href="/donate" className="block bg-primary text-white font-['Montserrat'] font-semibold px-4 py-2 rounded hover:bg-red-700 transition-all text-center mt-4">DONATE</Link>
             </div>
           </div>
         )}

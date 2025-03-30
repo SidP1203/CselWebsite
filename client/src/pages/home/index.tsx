@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
 import ImpactSection from "./ImpactSection";
@@ -34,6 +35,10 @@ export default function Home() {
 
   return (
     <>
+      <Helmet>
+        <title>CSEL Cincinnati - Strengthening Our Community</title>
+        <meta name="description" content="CSEL Cincinnati strengthens our community through education, support, and advocacy. Learn about our mission, programs, and how you can get involved." />
+      </Helmet>
       <HeroSection />
       <AboutSection />
       <ImpactSection />
