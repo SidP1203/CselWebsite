@@ -10,6 +10,7 @@ import DonatePage from "@/pages/donate";
 import ProgramsPage from "@/pages/programs";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { ScrollToTop } from "@/components/utils/ScrollToTop";
 
 function Router() {
   return (
@@ -27,6 +28,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <div className="flex flex-col min-h-screen">
+        <ScrollToTop />
         <Helmet>
           <meta charSet="utf-8" />
           <title>CSEL Cincinnati</title>

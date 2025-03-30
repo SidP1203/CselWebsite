@@ -21,10 +21,16 @@ export function scrollToSection(event: React.MouseEvent<HTMLAnchorElement, Mouse
   // Prevent default link behavior
   event.preventDefault();
   
-  // Scroll to the element smoothly
-  element.scrollIntoView({
-    behavior: 'smooth',
-    block: 'start',
+  // Get the header height (approximately)
+  const headerHeight = 80; // Adjust this value based on your header's actual height
+  
+  // Get element position
+  const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+  
+  // Scroll to element accounting for header height
+  window.scrollTo({
+    top: elementPosition - headerHeight,
+    behavior: 'smooth'
   });
   
   // Update URL without reload
