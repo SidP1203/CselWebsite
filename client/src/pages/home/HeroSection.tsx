@@ -38,36 +38,31 @@ export default function HeroSection() {
             Creating sustainable change through education, stability, and community support
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link href="#programs">
-              <a 
-                className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md text-lg hover:bg-red-700 transition-all inline-block"
-                onClick={(e) => handleScroll(e, "programs")}
-              >
-                Explore Our Programs
-              </a>
-            </Link>
-            <Link href="#donate">
-              <a 
-                className="bg-white text-primary font-['Montserrat'] font-semibold px-8 py-3 rounded-md text-lg hover:bg-gray-100 transition-all inline-block"
-                onClick={(e) => handleScroll(e, "donate")}
-              >
-                Make A Donation
-              </a>
-            </Link>
+            <button 
+              className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md text-lg hover:bg-red-700 transition-all"
+              onClick={(e) => handleScroll(e as any, "programs")}
+            >
+              Explore Our Programs
+            </button>
+            <button 
+              className="bg-white text-primary font-['Montserrat'] font-semibold px-8 py-3 rounded-md text-lg hover:bg-gray-100 transition-all"
+              onClick={(e) => handleScroll(e as any, "impact")}
+            >
+              Make A Donation
+            </button>
           </div>
         </div>
       </div>
       
       {/* Arrow down indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
-        <a 
-          href="#about" 
-          className="text-white hover:text-yellow-400 transition-all"
-          onClick={(e) => handleScroll(e, "about")}
+        <button 
+          className="text-white hover:text-yellow-400 transition-all cursor-pointer border-none bg-transparent p-0"
+          onClick={(e) => handleScroll(e as any, "about")}
           aria-label="Scroll down to mission section"
         >
           <ChevronDown size={24} />
-        </a>
+        </button>
       </div>
     </section>
   );

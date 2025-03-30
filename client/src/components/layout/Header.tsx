@@ -14,12 +14,12 @@ export default function Header() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center">
+            <div className="flex items-center cursor-pointer" onClick={() => window.location.href = '/'}>
               <div className="bg-primary rounded-full h-10 w-10 flex items-center justify-center mr-2">
                 <span className="text-white font-bold font-['Montserrat']">CSEL</span>
               </div>
               <span className="text-dark font-['Montserrat'] font-bold text-xl">CSEL Cincinnati</span>
-            </Link>
+            </div>
           </div>
           
           {/* Mobile menu button */}
