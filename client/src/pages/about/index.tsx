@@ -18,9 +18,9 @@ export default function AboutPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Mission & Vision</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">What is SEL?</h1>
             <p className="text-xl text-gray-700 mb-8">
-              The Center for Social-Emotional Learning (CSEL) was founded to fill a crucial mental health need in the school communities of the Greater Cincinnati area. We are dedicated to teaching children how to express their emotions in positive ways, effectively communicate, and manage their interpersonal conflicts.
+              SEL is a set of principles and practices that promote self-awareness, self-management, social awareness, relationship skills and responsible decision-making. SEL skills are key to establishing positive relationships, understanding and managing emotions, and thriving in various social situations. Advantages from SEL programs are improved academic performance, better mental health and more positive social interactions.
             </p>
           </div>
         </div>
@@ -35,11 +35,8 @@ export default function AboutPage() {
               <p className="text-lg text-gray-700 mb-6">
                 CSEL was founded in June 2014 by a group of concerned educators and other professionals wanting to fill a crucial mental health need in the school communities of the Greater Cincinnati area.
               </p>
-              <p className="text-lg text-gray-700 mb-6">
-                Many times we find the children we serve lack self-confidence, self-management, and relationship skills. The experienced and compassionate CSEL facilitators use Interactive and Engaging Experiences in school classrooms to assist youth in building these vital personal skills.
-              </p>
-              <p className="text-lg text-gray-700">
-                It is our deepest hope and major goal for our students to take these skills from the classroom to their future work life, marriages, parenting, and community at large. With this comprehensive training, we are enhancing the entire lives of our students, giving them the opportunity to be a positive change in the world.
+              <p>
+                Our programs haave filled a crucial mental health need in Greater Cincinnati, teaching not only social-emotional skills but also communication, cooperation, affirmation of self and others, peaceful conflict resolution, peer mediation, and appreciation of differences.  These were important elements of our predecessor organizations, the Center for Peace Education (1979-2009) and Bridges for a Just Community (2009-2013).
               </p>
             </div>
             <div className="bg-gray-100 p-8 rounded-lg">
