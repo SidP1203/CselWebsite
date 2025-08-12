@@ -9,13 +9,7 @@ export default function AboutSection() {
           <h2 className="text-gray-800 font-['Montserrat'] font-bold text-3xl md:text-4xl mb-6">Our Mission</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-gray-600 text-lg leading-relaxed mb-4 font-['Open Sans']">
-            The Center for Social-Emotional Learning (CSEL) was founded in June 2014 by a group of concerned educators and other professionals wanting to fill a crucial mental health need in the school communities of the Greater Cincinnati area.
-          </p>
-          <p className="text-gray-600 text-lg leading-relaxed mb-4 font-['Open Sans']">
-            With many children not knowing how to express their emotions in positive ways, effectively communicate, and manage their interpersonal conflicts, our team of dedicated professionals works to teach those skills in order to help our local students achieve individual and communal success.
-          </p>
-          <p className="text-gray-600 text-lg leading-relaxed mb-8 font-['Open Sans']">
-            Students involved with the CSEL programming are taught the language needed to express their feelings and the communication and cooperation skills necessary to solve problems together. They are given opportunities to develop solutions to the conflicts and problems in their lives.
+            Our mission is to create school and community cultures that are supportive, respectful and nonviolent, by using interactive and engaging experiences with youth and adults to build social-emotional and conflict resolution skills.
           </p>
           <Link href="/about">
             <button className="inline-flex items-center text-primary font-['Montserrat'] font-semibold hover:text-[#0055a4] transition-all border-none bg-transparent p-0 cursor-pointer">
