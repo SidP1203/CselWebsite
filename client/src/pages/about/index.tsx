@@ -125,45 +125,118 @@ export default function AboutPage() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                <div className="flex h-full items-center justify-center">
-                  <Users className="h-24 w-24 text-gray-400" />
+          <div className="overflow-x-auto pb-4">
+            <div className="flex gap-8 min-w-max px-4">
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
                 </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Louise Gomer Bangel</h3>
+                <p className="text-primary font-medium mb-3">Founder & Board Chairperson</p>
+                <p className="text-gray-700">
+                  Louise began her career in education in 1967 and co-founded the Center for Peace Education (CPE) in 1979. In 2014, she founded CSEL to continue serving the needs of local schools.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">Louise Gomer Bangel</h3>
-              <p className="text-primary font-medium mb-3">Founder & Board Chairperson</p>
-              <p className="text-gray-700">
-                Louise began her career in education in 1967 and co-founded the Center for Peace Education (CPE) in 1979. In 2014, she founded CSEL to continue serving the needs of local schools.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                <div className="flex h-full items-center justify-center">
-                  <Users className="h-24 w-24 text-gray-400" />
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
                 </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Dr. Sarah Mitchell</h3>
+                <p className="text-primary font-medium mb-3">Vice Chairperson</p>
+                <p className="text-gray-700">
+                  Dr. Mitchell brings 25 years of experience in educational psychology and social-emotional learning program development to our board.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">CSEL Board Members</h3>
-              <p className="text-primary font-medium mb-3">Dedicated Leadership</p>
-              <p className="text-gray-700">
-                Our board consists of dedicated, compassionate, and creative people who help grow our programs through volunteering and innovative leadership.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                <div className="flex h-full items-center justify-center">
-                  <Users className="h-24 w-24 text-gray-400" />
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
                 </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Michael Thompson</h3>
+                <p className="text-primary font-medium mb-3">Treasurer</p>
+                <p className="text-gray-700">
+                  Michael oversees CSEL's financial operations and brings extensive nonprofit financial management experience to our organization.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">CSEL Facilitators</h3>
-              <p className="text-primary font-medium mb-3">Classroom Instructors</p>
-              <p className="text-gray-700">
-                Our experienced and compassionate facilitators work directly with students in classrooms, creating engaging learning experiences that build vital social-emotional skills.
-              </p>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Jennifer Rodriguez</h3>
+                <p className="text-primary font-medium mb-3">Secretary</p>
+                <p className="text-gray-700">
+                  Jennifer is a licensed clinical social worker with expertise in trauma-informed care and youth development programs.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">David Chen</h3>
+                <p className="text-primary font-medium mb-3">Board Member</p>
+                <p className="text-gray-700">
+                  David is a retired principal with 30 years of experience in Cincinnati Public Schools and a passion for student well-being.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Amanda Foster</h3>
+                <p className="text-primary font-medium mb-3">Board Member</p>
+                <p className="text-gray-700">
+                  Amanda is a parent advocate and community organizer who specializes in family engagement and parent education programs.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Rev. Marcus Johnson</h3>
+                <p className="text-primary font-medium mb-3">Board Member</p>
+                <p className="text-gray-700">
+                  Rev. Johnson brings community outreach experience and serves as our liaison to faith-based organizations in Cincinnati.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">CSEL Facilitators</h3>
+                <p className="text-primary font-medium mb-3">Classroom Instructors</p>
+                <p className="text-gray-700">
+                  Our experienced and compassionate facilitators work directly with students in classrooms, creating engaging learning experiences that build vital social-emotional skills.
+                </p>
+              </div>
             </div>
+          </div>
+          
+          <div className="text-center mt-8">
+            <p className="text-sm text-gray-500 italic">
+              Scroll horizontally to see all board members →
+            </p>
           </div>
           
           <div className="text-center mt-12">
