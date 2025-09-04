@@ -2,9 +2,7 @@ import { Helmet } from "react-helmet";
 import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
 import ImpactSection from "./ImpactSection";
-import FocusAreasSection from "./FocusAreasSection";
 import GetInvolvedSection from "./GetInvolvedSection";
-import NewsEventsSection from "./NewsEventsSection";
 import TestimonialSection from "./TestimonialSection";
 import ContactSection from "./ContactSection";
 import CTASection from "./CTASection";
@@ -42,9 +40,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ImpactSection />
-      <FocusAreasSection />
       <GetInvolvedSection />
-      <NewsEventsSection />
       <TestimonialSection />
       <ContactSection />
       <CTASection />
