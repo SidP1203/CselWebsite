@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface Testimonial {
   quote: string;
@@ -65,15 +66,26 @@ export default function TestimonialSection() {
               </div>
             </div>
             
-            <div className="flex justify-center mt-6">
-              {testimonials.map((_, index) => (
-                <button
-                  key={index}
-                  className={`mx-1 w-3 h-3 rounded-full ${index === currentIndex ? 'bg-primary' : 'bg-gray-300'}`}
-                  onClick={() => setCurrentIndex(index)}
-                  aria-label={`Go to testimonial ${index + 1}`}
-                />
-              ))}
+            <div className="flex justify-center items-center mt-6 gap-4">
+              <button
+                onClick={() => setCurrentIndex(currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1)}
+                className="p-2 rounded-full bg-primary text-white hover:bg-primary/90 transition-colors"
+                aria-label="Previous testimonial"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              
+              <span className="text-primary font-['Montserrat'] font-semibold">
+                {currentIndex + 1} / {testimonials.length}
+              </span>
+              
+              <button
+                onClick={() => setCurrentIndex(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1)}
+                className="p-2 rounded-full bg-primary text-white hover:bg-primary/90 transition-colors"
+                aria-label="Next testimonial"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
             </div>
           </div>
         </div>
