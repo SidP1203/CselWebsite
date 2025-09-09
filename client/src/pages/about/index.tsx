@@ -6,6 +6,7 @@ import {
   Award,
   Heart
 } from "lucide-react";
+import swapnaPhoto from "@assets/swapna-pudipeddi.jpg";
 
 export default function AboutPage() {
   return (
@@ -175,7 +176,7 @@ export default function AboutPage() {
               <div className="flex-shrink-0 text-center w-80">
                 <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
                   <img 
-                    src="/attached_assets/IMG_1515_1757461004847.jpg" 
+                    src={swapnaPhoto} 
                     alt="Swapna Pudipeddi" 
                     className="w-full h-full object-cover"
                   />
