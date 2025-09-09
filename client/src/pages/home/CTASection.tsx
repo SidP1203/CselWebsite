@@ -10,15 +10,11 @@ export default function CTASection() {
             Your support helps us create lasting change in our community. Every donation, regardless of size, makes a meaningful impact.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="#">
-              <a className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-red-700 transition-all">
-                Donate Now
-              </a>
+            <Link href="#" className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-red-700 transition-all">
+              Donate Now
             </Link>
-            <Link href="#">
-              <a className="bg-gray-800 text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-gray-700 transition-all">
-                Become A Monthly Donor
-              </a>
+            <Link href="#" className="bg-gray-800 text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-gray-700 transition-all">
+              Become A Monthly Donor
             </Link>
           </div>
         </div>
