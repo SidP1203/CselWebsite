@@ -63,10 +63,8 @@ export default function GetInvolvedSection() {
               <p className="text-gray-600 mb-6 font-['Open Sans']">
                 {option.description}
               </p>
-              <Link href={option.buttonLink}>
-                <a className={`${option.buttonColor} ${option.title === "Partner With Us" ? "text-gray-800" : "text-white"} font-['Montserrat'] font-semibold px-6 py-2 rounded ${option.buttonHoverColor} transition-all inline-block`}>
-                  {option.buttonText}
-                </a>
+              <Link href={option.buttonLink} className={`${option.buttonColor} ${option.title === "Partner With Us" ? "text-gray-800" : "text-white"} font-['Montserrat'] font-semibold px-6 py-2 rounded ${option.buttonHoverColor} transition-all inline-block`}>
+                {option.buttonText}
               </Link>
             </div>
           ))}
