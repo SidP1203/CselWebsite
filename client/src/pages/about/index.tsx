@@ -173,15 +173,17 @@ export default function AboutPage() {
               </div>
               
               <div className="flex-shrink-0 text-center w-80">
-                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                  <div className="flex h-full items-center justify-center">
-                    <Users className="h-24 w-24 text-gray-400" />
-                  </div>
+                <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src="/attached_assets/IMG_1515_1757461004847.jpg" 
+                    alt="Swapna Pudipeddi" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">Michael Thompson</h3>
-                <p className="text-primary font-medium mb-3">Treasurer</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Swapna Pudipeddi</h3>
+                <p className="text-primary font-medium mb-3">Board Member</p>
                 <p className="text-gray-700">
-                  Michael oversees CSEL's financial operations and brings extensive nonprofit financial management experience to our organization.
+                  Swapna holds degrees in Economics & Literature from Sophia College, and Law from Government Law College, Mumbai. She built her expertise as an attorney specializing in Corporate and Labor law and is dedicated to promoting mental health among children through meaningful community action.
                 </p>
               </div>
               
