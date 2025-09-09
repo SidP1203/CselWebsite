@@ -165,10 +165,10 @@ export default function AboutPage() {
                     <Users className="h-24 w-24 text-gray-400" />
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">Dr. Sarah Mitchell</h3>
-                <p className="text-primary font-medium mb-3">Vice Chairperson</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Gregory J. Greiwe</h3>
+                <p className="text-primary font-medium mb-3">Board Member</p>
                 <p className="text-gray-700">
-                  Dr. Mitchell brings 25 years of experience in educational psychology and social-emotional learning program development to our board.
+                  Greg brings over 30 years of experience in the educational software industry with expertise in Organizational Leadership, Professional Development, Customer Success, Project Management, and Curriculum and Instruction. He holds a B.A. in Elementary/Special Education from St. Leo University and an M.Ed. in Educational Administration and Supervision from Xavier University.
                 </p>
               </div>
               
