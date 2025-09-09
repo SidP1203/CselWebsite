@@ -71,6 +71,25 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Mission and Vision Section */}
+      <section className="bg-gray-50 py-16 md:py-24">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
+            <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
+            <p className="text-lg text-gray-700 leading-relaxed mb-12">
+              Our mission is to create school and community cultures that are supportive, respectful and nonviolent, by using interactive and engaging experiences with youth and adults to build social-emotional and conflict resolution skills.
+            </p>
+            
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Vision</h2>
+            <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Every child in our community will develop the social-emotional skills and receive the adult support essential for leading a safe, happy and productive life.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Values Section */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
