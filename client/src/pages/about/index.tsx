@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import swapnaPhoto from "@assets/swapna-pudipeddi.jpg";
 import louisePhoto from "@assets/louise_1_orig_1759186294689.jpg";
+import bobPhoto from "@assets/bob_orig_1759186424919.jpg";
 
 export default function AboutPage() {
   return (
@@ -177,6 +178,21 @@ export default function AboutPage() {
                 <p className="text-primary font-medium mb-3">Board Member</p>
                 <p className="text-gray-700">
                   Greg brings over 30 years of experience in the educational software industry with expertise in Organizational Leadership, Professional Development, Customer Success, Project Management, and Curriculum and Instruction. He holds a B.A. in Elementary/Special Education from St. Leo University and an M.Ed. in Educational Administration and Supervision from Xavier University.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src={bobPhoto} 
+                    alt="Robert E. Kelly" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Robert E. Kelly</h3>
+                <p className="text-primary font-medium mb-3">Director</p>
+                <p className="text-gray-700">
+                  Bob dedicated his career to education, serving as a principal from 1974 to 2011 across Catholic and public schools. In 1976, he founded St. Peter's Montessori, still thriving today. Committed to fostering safe, supportive learning environments, Bob created the award-winning PAVE Peer Mediation Team, recognized with state and national honors for conflict resolution and nonviolent community building. At New Burlington Elementary, a high-poverty school, his leadership and implementation of best-practice programs raised the school from "Continuous Improvement" to an Excellent Rating on Ohio's Report Card.
                 </p>
               </div>
               
