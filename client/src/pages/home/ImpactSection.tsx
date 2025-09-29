@@ -6,10 +6,10 @@ interface ImpactStat {
 }
 
 const impactStats: ImpactStat[] = [
-  { value: "11%", label: "Increase in Academic Performance" },
+  { value: "11%", label: "Increase In Academic Performance" },
   { value: "10%", label: "Less Emotional Distress" },
-  { value: "91%", label: "Of students said it was helpful" },
-  { value: "100%", label: "Of staff said there was a significant behavior improvement" },
+  { value: "91%", label: "Of Students Said It Was Helpful" },
+  { value: "100%", label: "Of Staff Said There Was A Significant Behavior Improvement" },
 ];
 
 export default function ImpactSection() {
