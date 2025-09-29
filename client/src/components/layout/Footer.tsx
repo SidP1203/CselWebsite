@@ -3,6 +3,7 @@ import { ChevronUp, Facebook, Twitter, Instagram, Linkedin, Phone, Mail } from "
 import { useState, useEffect } from "react";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
+import logoImage from "@assets/final-logo-small_3_1759185475923.jpg";
 
 export default function Footer() {
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -66,9 +67,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block mb-6">
               <div className="flex items-center">
-                <div className="bg-white rounded-full h-10 w-10 flex items-center justify-center mr-2">
-                  <span className="text-primary font-bold font-['Montserrat']">CSEL</span>
-                </div>
+                <img src={logoImage} alt="CSEL Logo" className="h-12 w-12 mr-2" />
                 <span className="text-white font-['Montserrat'] font-bold text-xl">CSEL Cincinnati</span>
               </div>
             </Link>
