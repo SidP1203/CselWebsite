@@ -7,6 +7,7 @@ import {
   Heart
 } from "lucide-react";
 import swapnaPhoto from "@assets/swapna-pudipeddi.jpg";
+import louisePhoto from "@assets/louise_1_orig_1759186294689.jpg";
 
 export default function AboutPage() {
   return (
@@ -152,10 +153,12 @@ export default function AboutPage() {
           <div className="overflow-x-auto pb-4">
             <div className="flex gap-8 min-w-max px-4">
               <div className="flex-shrink-0 text-center w-80">
-                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                  <div className="flex h-full items-center justify-center">
-                    <Users className="h-24 w-24 text-gray-400" />
-                  </div>
+                <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src={louisePhoto} 
+                    alt="Louise Gomer Bangel" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">Louise Gomer Bangel</h3>
                 <p className="text-primary font-medium mb-3">Founder & Board Chairperson</p>
