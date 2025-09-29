@@ -8,8 +8,8 @@ interface ImpactStat {
 const impactStats: ImpactStat[] = [
   { value: "11%", label: "Increase in Academic Performance" },
   { value: "10%", label: "Less Emotional Distress" },
-  { value: "9%", label: "Better Attitudes About Self & Others" },
-  { value: "23%", label: "Reduction in Problem Behaviors" },
+  { value: "91%", label: "Of students said it was helpful" },
+  { value: "100%", label: "Of staff said there was a significant behavior improvement" },
 ];
 
 export default function ImpactSection() {
@@ -45,7 +45,7 @@ export default function ImpactSection() {
           <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl mb-6">Our Impact</h2>
           <div className="w-20 h-1 bg-white mx-auto mb-8"></div>
           <p className="text-lg md:text-xl max-w-3xl mx-auto font-['Open Sans']">
-            According to a 2013 review of research by CASEL (Collaborative for Academic, Social, and Emotional Learning), Social-Emotional Learning programs show these positive outcomes:
+            CSEL has over 10,000 students in over 700 classrooms, here our the positive impacts that it makes:
           </p>
         </div>
         
