@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { scrollToSection } from "../utils/scroll";
 import { Button } from "@/components/ui/button";
+import logoImage from "@assets/final-logo-small_3_1759185475923.jpg";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -17,9 +18,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <div className="bg-primary rounded-full h-10 w-10 flex items-center justify-center mr-2">
-                <span className="text-white font-bold font-['Montserrat']">CSEL</span>
-              </div>
+              <img src={logoImage} alt="CSEL Logo" className="h-12 w-12 mr-2" />
               <span className="text-dark font-['Montserrat'] font-bold text-xl">CSEL Cincinnati</span>
             </a>
           </div>
