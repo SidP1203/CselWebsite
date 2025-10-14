@@ -10,10 +10,10 @@ export default function CTASection() {
             Help CSEL empower students to solve conflicts through peer intervention. Your support enables us to teach vital conflict resolution and mediation skills that create safer, more supportive school communities.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="#" className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-red-700 transition-all">
+            <Link href="/donate" className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-red-700 transition-all">
               Donate Now
             </Link>
-            <Link href="#" className="bg-gray-800 text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-gray-700 transition-all">
+            <Link href="/donate" className="bg-gray-800 text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-gray-700 transition-all">
               Become A Monthly Donor
             </Link>
           </div>
