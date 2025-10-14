@@ -7,6 +7,7 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import AboutPage from "@/pages/about";
 import DonatePage from "@/pages/donate";
+import DonateSuccessPage from "@/pages/donate/success";
 import ProgramsPage from "@/pages/programs";
 
 import Header from "@/components/layout/Header";
@@ -19,6 +20,7 @@ function Router() {
       <Route path="/" component={Home}/>
       <Route path="/about" component={AboutPage}/>
       <Route path="/donate" component={DonatePage}/>
+      <Route path="/donate/success" component={DonateSuccessPage}/>
       <Route path="/programs" component={ProgramsPage}/>
       <Route component={NotFound} />
     </Switch>

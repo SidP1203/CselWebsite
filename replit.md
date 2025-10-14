@@ -24,7 +24,8 @@ Preferred communication style: Simple, everyday language.
 - **Framework**: Express.js with TypeScript
 - **Database ORM**: Drizzle ORM with PostgreSQL dialect
 - **Database Provider**: Neon Database (serverless PostgreSQL)
-- **API Design**: RESTful endpoints for contact submissions and newsletter signups
+- **API Design**: RESTful endpoints for contact submissions, newsletter signups, and payment processing
+- **Payment Processing**: Stripe integration (v19.1.0) for donation processing with API version 2025-09-30.clover
 - **Validation**: Zod schemas for request validation with proper error handling
 - **Development**: Hot module replacement with Vite integration
 - **Session Management**: Built-in session handling with connect-pg-simple
@@ -43,7 +44,20 @@ Preferred communication style: Simple, everyday language.
 
 ### External Dependencies
 - **Database**: Neon Database (serverless PostgreSQL)
+- **Payment Gateway**: Stripe for secure payment processing (deposits to General Electric Credit Union)
 - **Analytics**: Google Analytics for website tracking
 - **Fonts**: Google Fonts CDN for web typography
 - **Build Tools**: Vite with React plugin and custom Replit integrations
 - **Development**: Replit-specific plugins for cartographer and error handling
+
+## Recent Changes (October 14, 2025)
+
+### Stripe Payment Integration
+- Implemented complete donation workflow using Stripe Payment Intents API
+- Created `/donate` page with amount selection and custom donation input
+- Integrated Stripe Elements for secure payment collection
+- Built `/donate/success` confirmation page for post-payment experience
+- Updated all donation CTAs to link to new checkout flow
+- Configured backend API endpoint `/api/create-payment-intent` for payment processing
+- Added environment variables for Stripe keys (VITE_STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY)
+- Messaging focuses on peer-led conflict resolution and student empowerment
