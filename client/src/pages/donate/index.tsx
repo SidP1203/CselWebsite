@@ -5,7 +5,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
-import { Heart } from "lucide-react";
+import { Heart, Users, TrendingUp, Award } from "lucide-react";
 
 const stripePromise = import.meta.env.VITE_STRIPE_PUBLIC_KEY 
   ? loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY)
@@ -161,6 +161,36 @@ export default function DonatePage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
+            
+            {/* Impact Section - NOW AT THE TOP AND MORE PROMINENT */}
+            <div className="mb-12 bg-gradient-to-br from-primary/5 via-primary/10 to-primary/5 rounded-xl p-8 border-2 border-primary/20 shadow-lg">
+              <div className="text-center mb-6">
+                <h2 className="text-3xl font-bold text-gray-900 mb-3">Your Impact</h2>
+                <p className="text-lg text-gray-700">See the real difference your donation makes</p>
+              </div>
+              
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-white rounded-lg p-6 text-center shadow-md">
+                  <Users className="h-10 w-10 text-primary mx-auto mb-3" />
+                  <div className="text-3xl font-bold text-primary mb-2">91%</div>
+                  <p className="text-gray-700 font-medium">Of students say our programs are helpful</p>
+                </div>
+                
+                <div className="bg-white rounded-lg p-6 text-center shadow-md">
+                  <TrendingUp className="h-10 w-10 text-primary mx-auto mb-3" />
+                  <div className="text-3xl font-bold text-primary mb-2">100%</div>
+                  <p className="text-gray-700 font-medium">Of staff report significant behavior improvements</p>
+                </div>
+                
+                <div className="bg-white rounded-lg p-6 text-center shadow-md">
+                  <Award className="h-10 w-10 text-primary mx-auto mb-3" />
+                  <div className="text-3xl font-bold text-primary mb-2">10,000+</div>
+                  <p className="text-gray-700 font-medium">Students in 700+ classrooms benefit from our programs</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Donation Form - NOW BELOW IMPACT */}
             {!clientSecret ? (
               <div className="bg-white rounded-lg shadow-md p-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">Choose Your Donation Amount</h2>
@@ -231,25 +261,6 @@ export default function DonatePage() {
                 </button>
               </div>
             )}
-
-            {/* Impact Section */}
-            <div className="mt-12 bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Your Impact</h3>
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>91% of students say our programs are helpful</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>100% of staff report significant behavior improvements</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  <span>Over 10,000 students in 700+ classrooms benefit from our programs</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
