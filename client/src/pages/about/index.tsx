@@ -174,6 +174,19 @@ export default function AboutPage() {
                     <Users className="h-24 w-24 text-gray-400" />
                   </div>
                 </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Dan Zavon</h3>
+                <p className="text-primary font-medium mb-3">Vice-Chair</p>
+                <p className="text-gray-700">
+                  Dan had a 22-year career as a paper boy, beginning as a high school senior when he started the first Sunday New York Times home delivery service in Cincinnati, eventually becoming the wholesale distributor of the Times for greater Cincinnati. He majored in Political Science at Boston University and got a law degree at the University of Cincinnati but never practiced law. He has been a political activist in the areas of nuclear safety, gun control, nonsmokers' rights, civil liberties and fair elections (including Ranked Choice Voting and Proportional Representation). He has always been a great believer in peaceful conflict resolution, trying to find win-win solutions, and treating all persons with respect and dignity. He is a book collector and a devoted walker/stair climber for exercise, and was a stay-at-home dad to three (now adult) children. He has been a member of the CSEL board since 2017.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
+                  <div className="flex h-full items-center justify-center">
+                    <Users className="h-24 w-24 text-gray-400" />
+                  </div>
+                </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">Gregory J. Greiwe</h3>
                 <p className="text-primary font-medium mb-3">Board Member</p>
                 <p className="text-gray-700">
