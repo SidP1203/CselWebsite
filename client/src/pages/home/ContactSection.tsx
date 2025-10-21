@@ -117,7 +117,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-['Montserrat'] font-semibold text-lg mb-1">Phone</h4>
                   <p className="text-gray-600 font-['Open Sans']">
-                    <a href="tel:+15138158835" className="hover:text-primary transition-all">(513) 815-8835</a>
+                    <a href="tel:+15138176769" className="hover:text-primary transition-all">(513) 817-6769</a>
                   </p>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-['Montserrat'] font-semibold text-lg mb-1">Email</h4>
                   <p className="text-gray-600 font-['Open Sans']">
-                    <a href="mailto:info@cselcincinnati.org" className="hover:text-primary transition-all">info@cselcincinnati.org</a>
+                    <a href="mailto:barbarazgray@gmail.com" className="hover:text-primary transition-all">barbarazgray@gmail.com</a>
                   </p>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function ContactSection() {
                       </FormLabel>
                       <FormControl>
                         <Input 
-                          placeholder="(513) 815-8835" 
+                          placeholder="(513) 817-6769" 
                           className="w-full px-4 py-3 border border-gray-300 rounded-md focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-20 transition-all"
                           {...field} 
                         />
