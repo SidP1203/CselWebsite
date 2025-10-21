@@ -10,10 +10,10 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "I found the PATHS program to be invaluable in working with teachers in grades K-6. The curriculum is comprehensive, user-friendly, age-appropriate, and engaging for students while teaching critical social-emotional skills that promote positive behaviors and help create a better learning environment.",
-    name: "Lauren K.",
-    title: "School Social Worker",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+    quote: "Well, thanks to SEL, that recipe has been flipped on its head! Our 3 dedicated SEL staff members are rockstars! They've created engaging programs and workshops that teach our young learners the power of empathy, communication, and conflict resolution.",
+    name: "Head Principal",
+    title: "Princeton Middle School",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
   },
   {
     quote: "The PATHS program has been transformative for our school. Since implementation, we've seen a significant decrease in behavioral incidents and an increase in positive student interactions. The tools provided by CSEL Cincinnati have helped our teachers create more supportive classroom environments.",
