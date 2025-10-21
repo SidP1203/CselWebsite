@@ -5,27 +5,23 @@ interface Testimonial {
   quote: string;
   name: string;
   title: string;
-  image: string;
 }
 
 const testimonials: Testimonial[] = [
   {
     quote: "Well, thanks to SEL, that recipe has been flipped on its head! Our 3 dedicated SEL staff members are rockstars! They've created engaging programs and workshops that teach our young learners the power of empathy, communication, and conflict resolution.",
     name: "Head Principal",
-    title: "Princeton Middle School",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+    title: "Princeton Middle School"
   },
   {
     quote: "The PATHS program has been transformative for our school. Since implementation, we've seen a significant decrease in behavioral incidents and an increase in positive student interactions. The tools provided by CSEL Cincinnati have helped our teachers create more supportive classroom environments.",
     name: "Michael R.",
-    title: "Elementary School Principal",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+    title: "Elementary School Principal"
   },
   {
     quote: "As an educator for over 20 years, I've seen many programs come and go, but the social-emotional learning strategies introduced by CSEL Cincinnati have had lasting impact. Our students are developing crucial life skills that extend beyond the classroom and into their communities.",
     name: "Patricia T.",
-    title: "Veteran Teacher",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+    title: "Veteran Teacher"
   }
 ];
 
@@ -42,28 +38,17 @@ export default function TestimonialSection() {
           </div>
           
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="w-full md:w-1/3 mb-6 md:mb-0">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto border-4 border-[#ffc629]">
-                  <img 
-                    src={testimonials[currentIndex].image} 
-                    alt={testimonials[currentIndex].name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <div className="w-full md:w-2/3 md:pl-8">
-                <blockquote>
-                  <p className="text-gray-600 text-lg md:text-xl italic leading-relaxed mb-4 font-['Open Sans']">
-                    "{testimonials[currentIndex].quote}"
-                  </p>
-                  <footer>
-                    <cite className="font-['Montserrat'] font-semibold text-lg text-primary block">
-                      {testimonials[currentIndex].name}, {testimonials[currentIndex].title}
-                    </cite>
-                  </footer>
-                </blockquote>
-              </div>
+            <div className="max-w-3xl mx-auto">
+              <blockquote>
+                <p className="text-gray-600 text-lg md:text-xl italic leading-relaxed mb-6 font-['Open Sans'] text-center">
+                  "{testimonials[currentIndex].quote}"
+                </p>
+                <footer className="text-center">
+                  <cite className="font-['Montserrat'] font-semibold text-lg text-primary block">
+                    {testimonials[currentIndex].name}, {testimonials[currentIndex].title}
+                  </cite>
+                </footer>
+              </blockquote>
             </div>
             
             <div className="flex justify-center items-center mt-6 gap-4">
