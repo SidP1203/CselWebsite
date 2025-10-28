@@ -32,7 +32,7 @@ export default function HeroSection() {
       >
         <div className="max-w-2xl">
           <h1 className="text-white font-['Montserrat'] font-bold text-4xl md:text-5xl leading-tight mb-4">
-            Working Together To Build A Stronger Cincinnati
+            Building a Culture of Peace in Cincinnati
           </h1>
           <p className="text-white text-xl md:text-2xl mb-8 font-['Open Sans']">
             Creating sustainable change through education, stability, and community support
