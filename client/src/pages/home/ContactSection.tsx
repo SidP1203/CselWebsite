@@ -234,6 +234,7 @@ export default function ContactSection() {
                           <SelectItem value="volunteer">Volunteer Information</SelectItem>
                           <SelectItem value="donation">Donation Question</SelectItem>
                           <SelectItem value="programs">Program Information</SelectItem>
+                          <SelectItem value="partnerships">Partnerships</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
                       </Select>
