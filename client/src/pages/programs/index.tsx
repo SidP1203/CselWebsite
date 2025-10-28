@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { GraduationCap, Users, FlaskConical, Star, BookOpen, Calendar } from "lucide-react";
 import heroImage from "@assets/stock_images/students_helping_eac_4fe7788a.jpg";
+import { useToast } from "@/hooks/use-toast";
 
 interface FocusArea {
   title: string;
@@ -51,6 +52,16 @@ const focusAreas: FocusArea[] = [
 ];
 
 export default function ProgramsPage() {
+  const { toast } = useToast();
+
+  const handleLearnMoreClick = (areaTitle: string) => {
+    toast({
+      title: "Work in Progress",
+      description: `The ${areaTitle} page is currently being developed. Please check back soon!`,
+      variant: "default",
+    });
+  };
+
   return (
     <>
       <Helmet>
@@ -94,13 +105,11 @@ export default function ProgramsPage() {
                   <p className="font-['Open Sans'] mb-8 text-gray-600 leading-relaxed">{area.description}</p>
                   
                   <Button
-                    asChild
+                    onClick={() => handleLearnMoreClick(area.title)}
                     className="w-full bg-primary text-white font-['Montserrat'] font-semibold py-3 rounded hover:bg-red-700 transition-all"
                     data-testid={`button-learn-more-${index}`}
                   >
-                    <a href={area.link}>
-                      Learn More
-                    </a>
+                    Learn More
                   </Button>
                 </div>
               </div>
