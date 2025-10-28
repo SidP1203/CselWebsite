@@ -50,24 +50,24 @@ export default function AboutPage() {
               </div>
               <ul className="space-y-4">
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">1979:</span>
-                  <span className="text-gray-700">Center for Peace Education (CPE) co-founded</span>
+                  <span className="font-bold text-primary mr-2 text-lg">1979:</span>
+                  <span className="text-gray-700 text-lg">Center for Peace Education (CPE) co-founded</span>
                 </li>
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">2009:</span>
-                  <span className="text-gray-700">CPE absorbed into another local non-profit</span>
+                  <span className="font-bold text-primary mr-2 text-lg">2009:</span>
+                  <span className="text-gray-700 text-lg">CPE absorbed into another local non-profit</span>
                 </li>
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">2013:</span>
-                  <span className="text-gray-700">CPE's new home closed, creating a need in the community</span>
+                  <span className="font-bold text-primary mr-2 text-lg">2013:</span>
+                  <span className="text-gray-700 text-lg">CPE's new home closed, creating a need in the community</span>
                 </li>
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">2014:</span>
-                  <span className="text-gray-700">Center for Social-Emotional Learning (CSEL) founded</span>
+                  <span className="font-bold text-primary mr-2 text-lg">2014:</span>
+                  <span className="text-gray-700 text-lg">Center for Social-Emotional Learning (CSEL) founded</span>
                 </li>
                 <li className="flex">
-                  <span className="font-bold text-primary mr-2">Today:</span>
-                  <span className="text-gray-700">Continuing to serve school communities in Greater Cincinnati</span>
+                  <span className="font-bold text-primary mr-2 text-lg">Today:</span>
+                  <span className="text-gray-700 text-lg">Continuing to serve school communities in Greater Cincinnati</span>
                 </li>
               </ul>
             </div>
