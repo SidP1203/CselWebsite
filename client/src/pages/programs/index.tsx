@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { GraduationCap, Users, FlaskConical, Star, BookOpen, Calendar } from "lucide-react";
+import heroImage from "@assets/stock_images/students_helping_eac_4fe7788a.jpg";
 
 interface FocusArea {
   title: string;
@@ -57,16 +58,27 @@ export default function ProgramsPage() {
         <meta name="description" content="Explore CSEL Cincinnati's focus areas in peer-led conflict resolution and social-emotional learning programs." />
       </Helmet>
 
-      <section className="py-16 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">Focus Areas</h1>
-            <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
-            <p className="text-lg max-w-3xl mx-auto font-['Open Sans'] leading-relaxed">
+      {/* Hero Section with Image Backdrop */}
+      <section className="relative h-[400px]">
+        <div 
+          className="absolute inset-0 bg-cover bg-center z-0" 
+          style={{backgroundImage: `url(${heroImage})`}}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/70 z-10"></div>
+        <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center">
+          <div className="text-center max-w-4xl">
+            <h1 className="text-white font-['Montserrat'] font-bold text-4xl md:text-5xl mb-6">Focus Areas</h1>
+            <div className="w-20 h-1 bg-white mx-auto mb-8"></div>
+            <p className="text-white text-lg md:text-xl max-w-3xl mx-auto font-['Open Sans'] leading-relaxed">
               CSEL Cincinnati empowers students through peer-led conflict resolution and social-emotional learning. Explore our focus areas to learn how we create safer, more supportive school communities.
             </p>
           </div>
+        </div>
+      </section>
 
+      {/* Focus Areas Cards Section */}
+      <section className="py-16 bg-gradient-to-b from-white to-gray-50">
+        <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {focusAreas.map((area, index) => (
               <div 
