@@ -38,18 +38,13 @@ export default function HeroSection() {
             Creating sustainable change through education, stability, and community support
           </p>
           <div className="flex flex-wrap gap-4">
-            <button 
+            <Link 
+              href="/focus-areas"
               className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md text-lg hover:bg-red-700 transition-all"
-              onClick={(e) => handleScroll(e as any, "programs")}
+              data-testid="button-explore-programs"
             >
               Explore Our Programs
-            </button>
-            <button 
-              className="bg-white text-primary font-['Montserrat'] font-semibold px-8 py-3 rounded-md text-lg hover:bg-gray-100 transition-all"
-              onClick={(e) => handleScroll(e as any, "impact")}
-            >
-              Make A Donation
-            </button>
+            </Link>
           </div>
         </div>
       </div>
