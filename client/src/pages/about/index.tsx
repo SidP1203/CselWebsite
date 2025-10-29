@@ -12,6 +12,7 @@ import bobPhoto from "@assets/bob_orig_1759186424919.jpg";
 import danPhoto from "@assets/unnamed_1761077087140.jpg";
 import gregPhoto from "@assets/greggy_1761774686039.jpg";
 import joshuaPhoto from "@assets/_dsc0049_6030179222_o - Copy (2)_1761774809306.jpg";
+import barbaraPhoto from "@assets/6767676_1761774983026.jpg";
 
 export default function AboutPage() {
   return (
@@ -232,15 +233,17 @@ export default function AboutPage() {
               </div>
               
               <div className="flex-shrink-0 text-center w-80">
-                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                  <div className="flex h-full items-center justify-center">
-                    <Users className="h-24 w-24 text-gray-400" />
-                  </div>
+                <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src={barbaraPhoto}
+                    alt="Barbara Gray"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">Jennifer Rodriguez</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Barbara Gray</h3>
                 <p className="text-primary font-medium mb-3">Secretary</p>
                 <p className="text-gray-700">
-                  Jennifer is a licensed clinical social worker with expertise in trauma-informed care and youth development programs.
+                  After graduating from Miami University, I worked in the international division of a multinational corporation in New York City. The city's diverse cultures sparked my interest in social work, leading me back to Cincinnati, where I served as a Family Services caseworker. After raising two children, I became a social worker at a Montessori preschool, later joining the administrative staff of a private Montessori school for thirty years. I currently serve as Secretary on the Center for Social-Emotional Learning Board and have volunteered on boards supporting afterschool programs and as an interviewer for Around Cincinnati on NPR. I also participate in a poetry writing class and several book clubs.
                 </p>
               </div>
               
