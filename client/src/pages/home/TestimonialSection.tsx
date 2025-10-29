@@ -19,9 +19,9 @@ const testimonials: Testimonial[] = [
     title: ""
   },
   {
-    quote: "As an educator for over 20 years, I've seen many programs come and go, but the social-emotional learning strategies introduced by CSEL Cincinnati have had lasting impact. Our students are developing crucial life skills that extend beyond the classroom and into their communities.",
-    name: "Patricia T.",
-    title: "Veteran Teacher"
+    quote: "The CSEL Program is the thing that will be helpful at school, home or with friends.",
+    name: "Students of Princeton Middle School",
+    title: ""
   }
 ];
 
