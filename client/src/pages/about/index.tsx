@@ -175,6 +175,21 @@ export default function AboutPage() {
               <div className="flex-shrink-0 text-center w-80">
                 <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
                   <img 
+                    src={bobPhoto} 
+                    alt="Robert E. Kelly" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Robert E. Kelly</h3>
+                <p className="text-primary font-medium mb-3">Director</p>
+                <p className="text-gray-700">
+                  Bob dedicated his career to education, serving as a principal from 1974 to 2011 across Catholic and public schools. In 1976, he founded St. Peter's Montessori, still thriving today. Committed to fostering safe, supportive learning environments, Bob created the award-winning PAVE Peer Mediation Team, recognized with state and national honors for conflict resolution and nonviolent community building. At New Burlington Elementary, a high-poverty school, his leadership and implementation of best-practice programs raised the school from "Continuous Improvement" to an Excellent Rating on Ohio's Report Card.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0 text-center w-80">
+                <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
+                  <img 
                     src={danPhoto} 
                     alt="Dan Zavon" 
                     className="w-full h-full object-cover"
@@ -205,15 +220,15 @@ export default function AboutPage() {
               <div className="flex-shrink-0 text-center w-80">
                 <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
                   <img 
-                    src={bobPhoto} 
-                    alt="Robert E. Kelly" 
+                    src={barbaraPhoto}
+                    alt="Barbara Gray"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">Robert E. Kelly</h3>
-                <p className="text-primary font-medium mb-3">Director</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">Barbara Gray</h3>
+                <p className="text-primary font-medium mb-3">Secretary</p>
                 <p className="text-gray-700">
-                  Bob dedicated his career to education, serving as a principal from 1974 to 2011 across Catholic and public schools. In 1976, he founded St. Peter's Montessori, still thriving today. Committed to fostering safe, supportive learning environments, Bob created the award-winning PAVE Peer Mediation Team, recognized with state and national honors for conflict resolution and nonviolent community building. At New Burlington Elementary, a high-poverty school, his leadership and implementation of best-practice programs raised the school from "Continuous Improvement" to an Excellent Rating on Ohio's Report Card.
+                  After graduating from Miami University, I worked in the international division of a multinational corporation in New York City. The city's diverse cultures sparked my interest in social work, leading me back to Cincinnati, where I served as a Family Services caseworker. After raising two children, I became a social worker at a Montessori preschool, later joining the administrative staff of a private Montessori school for thirty years. I currently serve as Secretary on the Center for Social-Emotional Learning Board and have volunteered on boards supporting afterschool programs and as an interviewer for Around Cincinnati on NPR. I also participate in a poetry writing class and several book clubs.
                 </p>
               </div>
               
@@ -229,21 +244,6 @@ export default function AboutPage() {
                 <p className="text-primary font-medium mb-3">Board Member</p>
                 <p className="text-gray-700">
                   Swapna holds degrees in Economics & Literature from Sophia College, and Law from Government Law College, Mumbai. She built her expertise as an attorney specializing in Corporate and Labor law and is dedicated to promoting mental health among children through meaningful community action.
-                </p>
-              </div>
-              
-              <div className="flex-shrink-0 text-center w-80">
-                <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
-                  <img 
-                    src={barbaraPhoto}
-                    alt="Barbara Gray"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">Barbara Gray</h3>
-                <p className="text-primary font-medium mb-3">Secretary</p>
-                <p className="text-gray-700">
-                  After graduating from Miami University, I worked in the international division of a multinational corporation in New York City. The city's diverse cultures sparked my interest in social work, leading me back to Cincinnati, where I served as a Family Services caseworker. After raising two children, I became a social worker at a Montessori preschool, later joining the administrative staff of a private Montessori school for thirty years. I currently serve as Secretary on the Center for Social-Emotional Learning Board and have volunteered on boards supporting afterschool programs and as an interviewer for Around Cincinnati on NPR. I also participate in a poetry writing class and several book clubs.
                 </p>
               </div>
               
