@@ -45,7 +45,7 @@ export default function TestimonialSection() {
                 </p>
                 <footer className="text-center">
                   <cite className="font-['Montserrat'] font-semibold text-lg text-primary block">
-                    {testimonials[currentIndex].name}, {testimonials[currentIndex].title}
+                    {testimonials[currentIndex].name}{testimonials[currentIndex].title && `, ${testimonials[currentIndex].title}`}
                   </cite>
                 </footer>
               </blockquote>
