@@ -39,7 +39,7 @@ export default function HeroSection() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
-              href="/focus-areas"
+              href="/programs"
               className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md text-lg hover:bg-red-700 transition-all"
               data-testid="button-explore-programs"
             >
