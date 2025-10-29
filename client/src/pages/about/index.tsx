@@ -196,7 +196,7 @@ export default function AboutPage() {
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">Gregory J. Greiwe</h3>
-                <p className="text-primary font-medium mb-3">Board Member</p>
+                <p className="text-primary font-medium mb-3">Head of Fundraising</p>
                 <p className="text-gray-700">
                   Greg brings over 30 years of experience in the educational software industry with expertise in Organizational Leadership, Professional Development, Customer Success, Project Management, and Curriculum and Instruction. He holds a B.A. in Elementary/Special Education from St. Leo University and an M.Ed. in Educational Administration and Supervision from Xavier University.
                 </p>
@@ -248,19 +248,6 @@ export default function AboutPage() {
               </div>
               
               <div className="flex-shrink-0 text-center w-80">
-                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                  <div className="flex h-full items-center justify-center">
-                    <Users className="h-24 w-24 text-gray-400" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">David Chen</h3>
-                <p className="text-primary font-medium mb-3">Board Member</p>
-                <p className="text-gray-700">
-                  David is a retired principal with 30 years of experience in Cincinnati Public Schools and a passion for student well-being.
-                </p>
-              </div>
-              
-              <div className="flex-shrink-0 text-center w-80">
                 <div className="h-64 w-64 rounded-full mx-auto mb-6 overflow-hidden">
                   <img 
                     src={joshuaPhoto}
@@ -275,31 +262,6 @@ export default function AboutPage() {
                 </p>
               </div>
               
-              <div className="flex-shrink-0 text-center w-80">
-                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                  <div className="flex h-full items-center justify-center">
-                    <Users className="h-24 w-24 text-gray-400" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">Rev. Marcus Johnson</h3>
-                <p className="text-primary font-medium mb-3">Board Member</p>
-                <p className="text-gray-700">
-                  Rev. Johnson brings community outreach experience and serves as our liaison to faith-based organizations in Cincinnati.
-                </p>
-              </div>
-              
-              <div className="flex-shrink-0 text-center w-80">
-                <div className="bg-gray-200 h-64 w-64 rounded-full mx-auto mb-6">
-                  <div className="flex h-full items-center justify-center">
-                    <Users className="h-24 w-24 text-gray-400" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">CSEL Facilitators</h3>
-                <p className="text-primary font-medium mb-3">Classroom Instructors</p>
-                <p className="text-gray-700">
-                  Our experienced and compassionate facilitators work directly with students in classrooms, creating engaging learning experiences that build vital social-emotional skills.
-                </p>
-              </div>
             </div>
           </div>
           
