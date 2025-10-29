@@ -14,9 +14,9 @@ const testimonials: Testimonial[] = [
     title: "Princeton Middle School"
   },
   {
-    quote: "The PATHS program has been transformative for our school. Since implementation, we've seen a significant decrease in behavioral incidents and an increase in positive student interactions. The tools provided by CSEL Cincinnati have helped our teachers create more supportive classroom environments.",
-    name: "Michael R.",
-    title: "Elementary School Principal"
+    quote: "A local school, Saint Monica's, has seen a 21% reduction in suspension through mediation training.",
+    name: "Students and Staff of Saint Monica",
+    title: ""
   },
   {
     quote: "As an educator for over 20 years, I've seen many programs come and go, but the social-emotional learning strategies introduced by CSEL Cincinnati have had lasting impact. Our students are developing crucial life skills that extend beyond the classroom and into their communities.",
