@@ -50,7 +50,20 @@ Preferred communication style: Simple, everyday language.
 - **Build Tools**: Vite with React plugin and custom Replit integrations
 - **Development**: Replit-specific plugins for cartographer and error handling
 
-## Recent Changes (October 14, 2025)
+## Recent Changes (October 31, 2025)
+
+### Team Member Updates
+- Added team member photos for Gregory J. Greiwe, Joshua Spears, and Barbara Gray
+- Updated Gregory J. Greiwe's title to "Head of Fundraising"
+- Removed placeholder team members (Amanda Foster, David Chen, Rev. Marcus Johnson, CSEL Facilitators)
+- Reordered Leadership Team: Louise, Bob, Dan, Gregory, Barbara, Swapna, Joshua
+- Updated Louise Gomer Bangel's bio with comprehensive 57-year career history including CPE founding (1979), Board Chair Emeritus transition (2024), and book co-authorship
+
+### Content Updates
+- Updated all three Success Stories with real testimonials from Princeton Middle School and Saint Monica
+- Increased "Our History" text size to match "Our Story" section
+- Fixed "Explore Our Programs" button to link to Focus Areas page (/programs route)
+- Resolved testimonial attribution formatting issues
 
 ### Stripe Payment Integration
 - Implemented complete donation workflow using Stripe Payment Intents API

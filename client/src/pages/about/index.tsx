@@ -168,7 +168,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">Louise Gomer Bangel</h3>
                 <p className="text-primary font-medium mb-3">Founder & Board Chairperson</p>
                 <p className="text-gray-700">
-                  Louise began her career in education in 1967 and co-founded the Center for Peace Education (CPE) in 1979. In 2014, she founded CSEL to continue serving the needs of local schools.
+                  Louise began her education career in 1967 and co-founded the Center for Peace Education (CPE) in 1979 to help children and adults build listening, problem-solving, and conflict-resolution skills. Over CPE's 30-year history, she served as a trainer, curriculum writer, fundraiser, and board officer. After CPE merged with another nonprofit that closed in 2013, Louise founded the Center for Social-Emotional Learning (CSEL) in 2014 and became its Board Chair Emeritus in 2024. She also co-authored A Year of SCRC: 35 Experiential Workshops for the Classroom (1992), a companion to A Friendly Classroom for a Small Planet.
                 </p>
               </div>
               
