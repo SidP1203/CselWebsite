@@ -17,7 +17,7 @@ const involvementOptions: InvolvementOption[] = [
     title: "Donate",
     description: "Your financial gift helps fund vital programs that create lasting change in our community.",
     buttonText: "Give Today",
-    buttonLink: "#donate",
+    buttonLink: "/donate",
     buttonColor: "bg-primary",
     buttonHoverColor: "hover:bg-red-700"
   },
