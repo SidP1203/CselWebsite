@@ -50,7 +50,18 @@ Preferred communication style: Simple, everyday language.
 - **Build Tools**: Vite with React plugin and custom Replit integrations
 - **Development**: Replit-specific plugins for cartographer and error handling
 
-## Recent Changes (October 31, 2025)
+## Recent Changes (November 17, 2025)
+
+### Focus Areas Section - Complete Rebuild
+- Created 6 comprehensive new pages with detailed content from official documentation:
+  - **School Programs** (/programs/school): Princeton Middle School programs, Summer Bridge, SEL classes, peer mediation training, Evanston Academy, Chase Elementary, South Avondale Middle School
+  - **Community Affiliations** (/programs/community): Greater Cincinnati Foundation grant, Talbert House partnership, St. Monica Center, Cincinnati Public Library collaboration
+  - **Research & Results** (/programs/research): 9-year impact data, 85% student learning outcomes, 96% staff confirmation, suspension reduction stats (21% at SMC, 17% at PCMS)
+  - **Success Stories** (/programs/success-stories): Testimonials from David Mackzum (PCMS), Michael Pearl (St. Monica Center), Ariel Miller (ACTS Group Leader)
+  - **Resources** (/programs/resources): SEL links (sel4oh.org, sel4us.org), educational videos, articles
+  - **Current News & Events** (/programs/news-events): Staff development, $60,000 GCF grant, International SEL Exchange
+- Updated Focus Areas landing page to link to real pages instead of "Work in Progress" toast messages
+- All pages feature professional design with consistent branding, icons, statistics displays, and CTAs
 
 ### Team Member Updates
 - Added team member photos for Gregory J. Greiwe, Joshua Spears, and Barbara Gray
@@ -62,7 +73,8 @@ Preferred communication style: Simple, everyday language.
 ### Content Updates
 - Updated all three Success Stories with real testimonials from Princeton Middle School and Saint Monica
 - Increased "Our History" text size to match "Our Story" section
-- Fixed "Explore Our Programs" button to link to Focus Areas page (/programs route)
+- Fixed "Explore Our Programs" button on homepage to link to Focus Areas page (/programs route)
+- Fixed donate button in Get Involved section to properly navigate to /donate page
 - Resolved testimonial attribution formatting issues
 
 ### Stripe Payment Integration
