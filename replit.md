@@ -75,6 +75,7 @@ Preferred communication style: Simple, everyday language.
 - Increased "Our History" text size to match "Our Story" section
 - Fixed "Explore Our Programs" button on homepage to link to Focus Areas page (/programs route)
 - Fixed donate button in Get Involved section to properly navigate to /donate page
+- Added contact dialog popup for Volunteer and Partner With Us buttons showing Robert E Kelly's contact info (phone: 513-207-2043, email: rektck60@gmail.com)
 - Resolved testimonial attribution formatting issues
 
 ### Stripe Payment Integration
