@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import { Users, Building2, Heart, Library } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import gcfLogo from "@assets/image_1763500962162.png";
 
 export default function CommunityAffiliationsPage() {
   return (
@@ -42,7 +43,7 @@ export default function CommunityAffiliationsPage() {
                   </div>
                 </div>
                 <img 
-                  src="/attached_assets/image_1763500962162.png" 
+                  src={gcfLogo} 
                   alt="Greater Cincinnati Foundation" 
                   className="h-16 object-contain"
                 />
