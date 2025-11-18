@@ -33,12 +33,19 @@ export default function CommunityAffiliationsPage() {
           {/* Greater Cincinnati Foundation */}
           <div className="max-w-4xl mx-auto mb-16">
             <div className="bg-gradient-to-r from-primary/10 to-primary/5 rounded-lg p-8 shadow-sm border-l-4 border-primary">
-              <div className="flex items-start gap-4 mb-4">
-                <Building2 className="w-10 h-10 text-primary flex-shrink-0 mt-1" />
-                <div>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-2 font-['Montserrat']">Greater Cincinnati Foundation</h2>
-                  <p className="text-sm text-gray-600 font-['Open Sans']">Cincinnati, OH</p>
+              <div className="flex items-start justify-between gap-6 mb-4">
+                <div className="flex items-start gap-4 flex-1">
+                  <Building2 className="w-10 h-10 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <h2 className="text-3xl font-bold text-gray-900 mb-2 font-['Montserrat']">Greater Cincinnati Foundation</h2>
+                    <p className="text-sm text-gray-600 font-['Open Sans']">Cincinnati, OH</p>
+                  </div>
                 </div>
+                <img 
+                  src="/attached_assets/image_1763500962162.png" 
+                  alt="Greater Cincinnati Foundation" 
+                  className="h-16 object-contain"
+                />
               </div>
               
               <p className="text-lg text-gray-700 leading-relaxed mb-6 font-['Open Sans']">

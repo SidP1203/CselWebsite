@@ -55,13 +55,14 @@ Preferred communication style: Simple, everyday language.
 ### Focus Areas Section - Complete Rebuild
 - Created 6 comprehensive new pages with detailed content from official documentation:
   - **School Programs** (/programs/school): Princeton Middle School programs, Summer Bridge, SEL classes, peer mediation training, Evanston Academy, Chase Elementary, South Avondale Middle School
-  - **Community Affiliations** (/programs/community): Greater Cincinnati Foundation grant, Talbert House partnership, St. Monica Center, Cincinnati Public Library collaboration
+  - **Community Affiliations** (/programs/community): Greater Cincinnati Foundation grant with official logo, Talbert House partnership, St. Monica Center, Cincinnati Public Library collaboration
   - **Research & Results** (/programs/research): 9-year impact data, 85% student learning outcomes, 96% staff confirmation, suspension reduction stats (21% at SMC, 17% at PCMS)
   - **Success Stories** (/programs/success-stories): Testimonials from David Mackzum (PCMS), Michael Pearl (St. Monica Center), Ariel Miller (ACTS Group Leader)
   - **Resources** (/programs/resources): SEL links (sel4oh.org, sel4us.org), educational videos, articles
-  - **Current News & Events** (/programs/news-events): Staff development, $60,000 GCF grant, International SEL Exchange
+  - **Current News & Events** (/programs/news-events): Staff development, $60,000 GCF grant with official logo, International SEL Exchange
 - Updated Focus Areas landing page to link to real pages instead of "Work in Progress" toast messages
 - All pages feature professional design with consistent branding, icons, statistics displays, and CTAs
+- Added Greater Cincinnati Foundation official logo to Community Affiliations and News & Events pages
 
 ### Team Member Updates
 - Added team member photos for Gregory J. Greiwe, Joshua Spears, and Barbara Gray

@@ -50,12 +50,19 @@ export default function NewsEventsPage() {
           {/* Greater Cincinnati Foundation Grant */}
           <div className="max-w-4xl mx-auto mb-16">
             <div className="bg-white rounded-lg p-8 shadow-lg border-2 border-primary">
-              <div className="flex items-start gap-4 mb-4">
-                <DollarSign className="w-10 h-10 text-primary flex-shrink-0 mt-1" />
-                <div>
-                  <p className="text-sm text-primary font-semibold mb-2 font-['Montserrat']">2025</p>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4 font-['Montserrat']">Greater Cincinnati Foundation Educational Success Grant</h2>
+              <div className="flex items-start justify-between gap-6 mb-4">
+                <div className="flex items-start gap-4 flex-1">
+                  <DollarSign className="w-10 h-10 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-sm text-primary font-semibold mb-2 font-['Montserrat']">2025</p>
+                    <h2 className="text-3xl font-bold text-gray-900 mb-4 font-['Montserrat']">Greater Cincinnati Foundation Educational Success Grant</h2>
+                  </div>
                 </div>
+                <img 
+                  src="/attached_assets/image_1763500962162.png" 
+                  alt="Greater Cincinnati Foundation" 
+                  className="h-16 object-contain"
+                />
               </div>
               
               <div className="bg-gradient-to-r from-primary to-red-700 text-white rounded-lg p-6 mb-6">
