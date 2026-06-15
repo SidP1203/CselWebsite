@@ -40,7 +40,7 @@ export default function FocusAreasSection() {
             We work in three key areas to create lasting change in our community.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {focusAreas.map((area, index) => (
             <div key={index} className="rounded-lg shadow-lg overflow-hidden transition-all hover:shadow-xl">
@@ -53,21 +53,23 @@ export default function FocusAreasSection() {
                 <p className="text-gray-600 mb-4 font-['Open Sans']">
                   {area.description}
                 </p>
-                <Link href="/programs">
-                  <a className="inline-flex items-center text-primary font-['Montserrat'] font-semibold hover:text-[#0055a4] transition-all">
-                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
-                  </a>
+                <Link
+                  href="/programs"
+                  className="inline-flex items-center text-primary font-['Montserrat'] font-semibold hover:text-[#0055a4] transition-all"
+                >
+                  Learn More <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
             </div>
           ))}
         </div>
-        
+
         <div className="text-center mt-12">
-          <Link href="/programs">
-            <a className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-red-700 transition-all inline-block">
-              View All Programs
-            </a>
+          <Link
+            href="/programs"
+            className="bg-primary text-white font-['Montserrat'] font-semibold px-8 py-3 rounded-md hover:bg-red-700 transition-all inline-block"
+          >
+            View All Programs
           </Link>
         </div>
       </div>

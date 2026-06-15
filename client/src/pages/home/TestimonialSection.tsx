@@ -1,30 +1,27 @@
 import { useState } from "react";
+import { Quote } from "lucide-react";
 
 interface Testimonial {
   quote: string;
   name: string;
   title: string;
-  image: string;
 }
 
 const testimonials: Testimonial[] = [
   {
-    quote: "I found the PATHS program to be invaluable in working with teachers in grades K-6. The curriculum is comprehensive, user-friendly, age-appropriate, and engaging for students while teaching critical social-emotional skills that promote positive behaviors and help create a better learning environment.",
-    name: "Lauren K.",
-    title: "School Social Worker",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+    quote: "We are so grateful for Mr. Kelly and his team from the Center of Social-Emotional Learning for partnering with us to teach the very important skill of conflict resolution to our young people. Our young people face many challenges, but we are in the trenches with them, attempting, to the best of our ability, to provide them the tools they need to be successful. The Bible says, \"Blessed (happy) are the peacemakers...\" (Matt. 5:9)! Happiness is the blessing that comes when we find peaceful solutions to our conflicts.",
+    name: "Michael Pearl",
+    title: "Director, St. Monica Center, June 2024"
   },
   {
-    quote: "The PATHS program has been transformative for our school. Since implementation, we've seen a significant decrease in behavioral incidents and an increase in positive student interactions. The tools provided by CSEL Cincinnati have helped our teachers create more supportive classroom environments.",
-    name: "Michael R.",
-    title: "Elementary School Principal",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+    quote: "This year I witnessed how powerful it is to have community support for a fledgling program to change the culture and practice of a large public school around conflict and discipline. Then, in January, Rev. Mike Pearl and his team at St. Monica's Recreation Center personally invited several middle school students to attend a Saturday workshop to practice skills the school had not yet called on. All of these young people come from a small Black community and must find their way in a challenging world. I am so grateful for this program.",
+    name: "Ariel Miller",
+    title: "ACTS Group Leader"
   },
   {
-    quote: "As an educator for over 20 years, I've seen many programs come and go, but the social-emotional learning strategies introduced by CSEL Cincinnati have had lasting impact. Our students are developing crucial life skills that extend beyond the classroom and into their communities.",
-    name: "Patricia T.",
-    title: "Veteran Teacher",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80"
+    quote: "It was fun to participate with the kids in role playing exercises as we all learned how to be peacemakers. There were serious moments mixed with occasional frowns and occasional giggles. The students recorded dozens of comments on what they learned, including how to solve a conflict with mediation and that they are valuable.",
+    name: "ACTS Church Leader",
+    title: "ACTS Episcopal Churches, Lincoln Heights"
   }
 ];
 
@@ -36,45 +33,48 @@ export default function TestimonialSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-white font-['Montserrat'] font-bold text-3xl md:text-4xl mb-6">Success Stories</h2>
+            <h2 className="text-white font-['Montserrat'] font-bold text-3xl md:text-4xl mb-6">What People Are Saying</h2>
             <div className="w-20 h-1 bg-[#ffc629] mx-auto mb-8"></div>
           </div>
-          
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="w-full md:w-1/3 mb-6 md:mb-0">
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto border-4 border-[#ffc629]">
-                  <img 
-                    src={testimonials[currentIndex].image} 
-                    alt={testimonials[currentIndex].name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+
+          <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
+            <div className="flex flex-col items-center text-center">
+              <div className="mb-6">
+                <Quote className="w-12 h-12 text-primary opacity-30 mx-auto" />
               </div>
-              <div className="w-full md:w-2/3 md:pl-8">
-                <blockquote>
-                  <p className="text-gray-600 text-lg md:text-xl italic leading-relaxed mb-4 font-['Open Sans']">
-                    "{testimonials[currentIndex].quote}"
-                  </p>
-                  <footer>
-                    <cite className="font-['Montserrat'] font-semibold text-lg text-primary block">
-                      {testimonials[currentIndex].name}, {testimonials[currentIndex].title}
-                    </cite>
-                  </footer>
-                </blockquote>
-              </div>
+              <blockquote className="mb-8">
+                <p className="text-gray-600 text-lg md:text-xl italic leading-relaxed font-['Open Sans']">
+                  "{testimonials[currentIndex].quote}"
+                </p>
+              </blockquote>
+              <footer>
+                <cite className="not-italic">
+                  <span className="font-['Montserrat'] font-bold text-lg text-primary block">
+                    {testimonials[currentIndex].name}
+                  </span>
+                  <span className="font-['Open Sans'] text-gray-500 text-sm">
+                    {testimonials[currentIndex].title}
+                  </span>
+                </cite>
+              </footer>
             </div>
-            
-            <div className="flex justify-center mt-6">
+
+            <div className="flex justify-center mt-8 gap-2">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
-                  className={`mx-1 w-3 h-3 rounded-full ${index === currentIndex ? 'bg-primary' : 'bg-gray-300'}`}
+                  className={`w-3 h-3 rounded-full transition-colors ${index === currentIndex ? 'bg-primary' : 'bg-gray-300 hover:bg-gray-400'}`}
                   onClick={() => setCurrentIndex(index)}
                   aria-label={`Go to testimonial ${index + 1}`}
                 />
               ))}
             </div>
+          </div>
+
+          <div className="text-center mt-8">
+            <p className="text-white/80 font-['Open Sans'] text-sm">
+              See also: <a href="/programs#testimonials" className="text-[#ffc629] underline hover:text-yellow-300 transition-colors">David Mackzum's letter from Princeton Community Middle School</a>
+            </p>
           </div>
         </div>
       </div>
